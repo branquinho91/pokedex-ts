@@ -1,0 +1,25 @@
+{
+  "name": "pokedex-ts",
+  "version": "1.0.0",
+  "description": "Pokédex de terminal em TypeScript que consulta a PokéAPI",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

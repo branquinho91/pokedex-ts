@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // ES2022: traz o Error com { cause }, o equivalente ao "raise ... from err"
+    "target": "ES2022",
+    // Com "type": "commonjs" no package.json, os imports não precisam de extensão
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+
+    // Sem build: o tsx roda o .ts direto e o tsc só checa os tipos
+    "noEmit": true
+  },
+  "include": ["src", "tests"]
+}

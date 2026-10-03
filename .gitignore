@@ -1,0 +1,6 @@
+# Dependências: cada máquina recria a partir do package-lock.json
+node_modules/
+
+# Saída de build e cobertura, se um dia existirem
+dist/
+coverage/
